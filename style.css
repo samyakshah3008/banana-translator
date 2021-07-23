@@ -19,15 +19,22 @@ margin: 0px;
     display: block;
     padding: 2rem;
     margin: auto;
-    background-color: #D1D5DB;
+    
     
 }
 
 .page-header{
     background-color: #FBBF24;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     text-align: center;
     
+}
+
+.about-use{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    font-size: large;
 }
 
 .translate-button{
