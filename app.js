@@ -6,6 +6,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(text) {
   return serverURL + "?" + "text=" + text
+  //? and something= are query parameters
 }
 
 function errorHandler(error) {
@@ -17,6 +18,8 @@ function errorHandler(error) {
   // outputDiv.innerText = "abcdefg" + txtInput.value //
 
   var inputText = txtInput.value;
+  
+  outputDiv.innerText = "Translation in progress..."
 
 
 fetch(getTranslationURL(inputText))
