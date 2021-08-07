@@ -6,7 +6,7 @@ margin: 0px;
 }
 
 :root{
-    --primary-color:#FBBF24;
+    --primary-color: #FCD34D;
     --footer-color:#111827;
     --span-color:#92400E;
     --section-color:#F3F4F6;
@@ -14,18 +14,26 @@ margin: 0px;
 
 }
 
+
+.hero-heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 .header-img{
-    max-width: 450px;
-    display: block;
     padding: 2rem;
     margin: auto;
+    max-width: 400px; 
     
     
 }
 
 .page-header{
-    background-color: #FBBF24;
-    padding: 1rem 1rem;
+    background-color:var(--primary-color);
+    
     text-align: center;
     
 }
@@ -38,7 +46,7 @@ margin: 0px;
 }
 
 .translate-button{
-    background-color: #FBBF24;
+    background-color: #FCD34D;
     margin-left: 380px;
     margin-bottom: 2rem;
     padding: 1rem 1rem;
@@ -46,7 +54,9 @@ margin: 0px;
     font-weight: bold;
     font-size: larger;
     color: var(--footer-color);
+    cursor: pointer;
 }
+
 
 .output-text{
     font-size: larger;
